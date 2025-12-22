@@ -32,7 +32,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6 text-sm font-medium text-secondary">
             <Star className="w-3.5 h-3.5 fill-current" />
-            <span>Flores Painting LLC</span>
+            <span>Flores Painting LLC MN</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold leading-tight mb-6 drop-shadow-sm">

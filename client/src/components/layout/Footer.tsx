@@ -15,12 +15,12 @@ export default function Footer() {
                <div className="h-16 w-16 rounded-lg bg-black p-2 flex items-center justify-center flex-shrink-0">
                  <img src={LOGO_URL} alt="Logo" className="w-full h-full object-contain" />
                </div>
-               <span className="font-serif font-bold text-xl">Flores Painting LLC</span>
+               <span className="font-serif font-bold text-xl">Flores Painting LLC MN</span>
              </div>
              <p className="text-gray-400 text-sm leading-relaxed mb-6">
                José Flores
                <br />
-               Minnesota, USA
+               Minnesota
              </p>
           </div>
           

@@ -67,7 +67,7 @@ export default function Navbar() {
             "font-serif font-bold text-lg md:text-xl tracking-tight transition-colors",
             scrolled ? "text-primary" : "text-white"
           )}>
-            Flores Painting LLC
+            Flores Painting LLC MN
           </span>
         </a>
 

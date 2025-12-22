@@ -63,7 +63,7 @@ const translations: Record<Language, Translations> = {
       estimate: "Solicitar Estimación",
     },
     hero: {
-      welcome: "Bienvenidos a Flores Painting LLC",
+      welcome: "Bienvenidos a Flores Painting LLC MN",
       title: "Transformamos tus espacios con calidad y detalle",
       subtitle: "Especialistas en pintura y remodelación interior y exterior en Minnesota. Resultados excepcionales garantizados.",
       cta: "Obtener Presupuesto Gratis",
@@ -137,7 +137,7 @@ const translations: Record<Language, Translations> = {
       estimate: "Request Estimate",
     },
     hero: {
-      welcome: "Welcome to Flores Painting LLC",
+      welcome: "Welcome to Flores Painting LLC MN",
       title: "We transform your spaces with quality and detail",
       subtitle: "Specialists in interior and exterior painting and remodeling in Minnesota. Exceptional results guaranteed.",
       cta: "Get Free Quote",

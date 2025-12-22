@@ -53,7 +53,7 @@ export default function WhyUs() {
             {t.whyUs.title}
           </h2>
           <p className="text-gray-300 text-lg">
-            Flores Painting LLC
+            Flores Painting LLC MN
           </p>
         </div>
 
