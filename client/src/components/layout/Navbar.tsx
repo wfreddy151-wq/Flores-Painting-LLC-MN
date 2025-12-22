@@ -4,7 +4,8 @@ import { Menu, X, Globe, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
-import logoImage from "@assets/generated_images/logo_for_flores_painting_llc.png";
+
+const LOGO_URL = "https://res.cloudinary.com/dmjd26f13/image/upload/v1766384737/B92BF314-31FC-4410-AFBB-B4B940ABC580_efdsmr.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,8 +60,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3 group" onClick={(e) => handleScrollTo(e, "#home")}>
-          <div className="relative overflow-hidden rounded-full border-2 border-white/20 bg-white p-1 h-12 w-12 transition-transform group-hover:scale-105">
-            <img src={logoImage} alt="Flores Painting LLC" className="h-full w-full object-contain" />
+          <div className="relative overflow-hidden rounded-lg bg-black p-2 h-12 w-12 transition-transform group-hover:scale-105 flex items-center justify-center">
+            <img src={LOGO_URL} alt="Flores Painting LLC" className="h-full w-full object-contain" />
           </div>
           <span className={cn(
             "font-serif font-bold text-lg md:text-xl tracking-tight transition-colors",

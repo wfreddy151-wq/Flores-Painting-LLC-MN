@@ -1,6 +1,7 @@
 import { useLanguage } from "@/lib/i18n";
 import { Link } from "wouter";
-import logoImage from "@assets/generated_images/logo_for_flores_painting_llc.png";
+
+const LOGO_URL = "https://res.cloudinary.com/dmjd26f13/image/upload/v1766384737/B92BF314-31FC-4410-AFBB-B4B940ABC580_efdsmr.png";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -11,8 +12,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-1">
              <div className="flex items-center gap-3 mb-6">
-               <div className="h-10 w-10 rounded-full bg-white p-1">
-                 <img src={logoImage} alt="Logo" className="w-full h-full object-contain" />
+               <div className="h-10 w-10 rounded-lg bg-black p-1.5 flex items-center justify-center">
+                 <img src={LOGO_URL} alt="Logo" className="w-full h-full object-contain" />
                </div>
                <span className="font-serif font-bold text-xl">Flores Painting LLC</span>
              </div>
