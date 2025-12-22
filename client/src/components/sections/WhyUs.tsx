@@ -34,8 +34,17 @@ export default function WhyUs() {
 
   return (
     <section className="py-24 bg-primary text-white relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent" />
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 opacity-8 bg-cover bg-center"
+        style={{
+          backgroundImage: "url('https://res.cloudinary.com/dmjd26f13/image/upload/v1766384737/B92BF314-31FC-4410-AFBB-B4B940ABC580_efdsmr.png')",
+          backgroundSize: "auto",
+          backgroundRepeat: "repeat"
+        }}
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-primary/70" />
       
       <div className="container px-4 md:px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
