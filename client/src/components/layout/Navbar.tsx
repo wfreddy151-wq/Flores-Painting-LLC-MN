@@ -60,7 +60,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3 group" onClick={(e) => handleScrollTo(e, "#home")}>
-          <div className="relative overflow-hidden rounded-lg bg-black p-2 h-12 w-12 transition-transform group-hover:scale-105 flex items-center justify-center">
+          <div className="relative overflow-hidden rounded-lg bg-black p-2 h-16 w-16 transition-transform group-hover:scale-105 flex items-center justify-center">
             <img src={LOGO_URL} alt="Flores Painting LLC" className="h-full w-full object-contain" />
           </div>
           <span className={cn(

@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-1">
              <div className="flex items-center gap-3 mb-6">
-               <div className="h-10 w-10 rounded-lg bg-black p-1.5 flex items-center justify-center">
+               <div className="h-16 w-16 rounded-lg bg-black p-2 flex items-center justify-center flex-shrink-0">
                  <img src={LOGO_URL} alt="Logo" className="w-full h-full object-contain" />
                </div>
                <span className="font-serif font-bold text-xl">Flores Painting LLC</span>
